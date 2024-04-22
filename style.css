@@ -4,7 +4,21 @@
     box-sizing: border-box;
 }
 .BaseBarraVerticale{
+    position: fixed;
     background-color: black;
-    width: 400px;
+    width: 300px;
     height: 1000px;
+}
+.BarraOrizzontaleSuperiore{
+    background-color: #080b12;
+    margin-left: 300px;
+    height: 20vh; 
+}
+.BaseMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #141922;
+    height: 80vh;
+    margin-left: 300px;
 }
