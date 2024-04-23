@@ -29,6 +29,12 @@ li:hover{
     float: left;
     margin-top: 95px;
 }
+body{
+    background-color: #141922;
+}
+body> p{
+    color: white;
+}
 
 
 /* Barra Verticale */
