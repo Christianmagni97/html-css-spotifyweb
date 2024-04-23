@@ -30,6 +30,7 @@ li:hover{
     margin-top: 95px;
 }
 
+
 /* Barra Verticale */
 .BaseBarraVerticale{
     position: fixed;
@@ -217,6 +218,33 @@ li:hover{
     font-size: 20px;
 }
 #SottotitoliBrani{
-    padding-top: 5px;
-    
+    padding-top: 5px;  
+}
+#BraniRecenti2{
+    margin-top: 180px;
+    color: white;
+    font-size: 20px;
+}
+/* Footer */
+#BranoSinister{
+    background-color: #adff2f;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ParteSinistraFooter{
+    display: flex;
+    align-items: center;
+}
+.NavRiproduzione> .ParteSinistraFooter> #BranoSinister img{
+    width: 100%;
+    object-fit: cover;
+}
+.NavRiproduzione> .ParteSinistraFooter> p> strong{
+    color: white;  
+}
+.NavRiproduzione> .ParteSinistraFooter> p{
+    margin-left: 20px;
+    padding-top: 20px;
 }
