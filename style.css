@@ -30,7 +30,7 @@ li:hover{
     margin-top: 95px;
 }
 body{
-    background-color: #141922;
+    /* background-color: #141922; */
 }
 body> p{
     color: white;
@@ -56,11 +56,11 @@ body> p{
     font-size: 12px;
 }
 .BaseMain{
-    display: flex;
-    position: relative;
     background-color: #141922;
     height: 80vh;
     margin-left: 300px;
+    width: calc(100vw - 300px);
+    overflow: scroll;
 }
 /*parte inferiore header*/
 .BaseBarraVerticale> .Playlist> nav> ul> li{
@@ -103,12 +103,12 @@ body> p{
 .NavRiproduzione{
     position: fixed;
     background-color: #282828;
-    height: 70vh;
+    height: 10vh;
     width: 100%;
 }
 /* Parte Finale header */
 .PrimaparteFinaleHeader{
-    margin-top: 200px;
+    margin-top: 340px;
     color: #a3a3a3;
 }
 .PrimaparteFinaleHeader> hr{
@@ -176,8 +176,7 @@ body> p{
 }
 /* lista superiore */
 #ListaSuperiore{
-    margin-top: 30px;
-    width: 150vh;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     color: #a3a3a3;
@@ -187,29 +186,28 @@ body> p{
 } 
 #BarraVerde2{
     background-color: #adff2f;
-    width: 30px;
+    width: 35px;
     height: 3px;
-    margin-left: 29%;
+    margin-left: 34%;
     margin-top: 5px;
 } 
 /*Inizio parte main dei brani */
 .Brani{
-    position: absolute;
-    left: 40px;
+    margin-left: 40px;
 }
 .FlexBrani{
     display: flex;
 }
 #BraniRecenti{
-    margin-top: 100px;
+    margin-top: 40px;
     color: white;
     font-size: 20px;
 }
 .BaseCoverCanzoni{
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-right: 30px;
     text-align: center;
     
@@ -227,7 +225,7 @@ body> p{
     padding-top: 5px;  
 }
 #BraniRecenti2{
-    margin-top: 180px;
+    margin-top: 160px;
     color: white;
     font-size: 20px;
 }
@@ -253,4 +251,18 @@ body> p{
 .NavRiproduzione> .ParteSinistraFooter> p{
     margin-left: 20px;
     padding-top: 20px;
+}
+.BaseCoverCanzoni2{
+    margin-top: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align: center;
+}
+.BaseCoverCanzoni2> img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
