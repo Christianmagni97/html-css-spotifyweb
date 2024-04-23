@@ -29,14 +29,9 @@ li:hover{
     float: left;
     margin-top: 95px;
 }
-body{
-    /* background-color: #141922; */
-}
 body> p{
     color: white;
 }
-
-
 /* Barra Verticale */
 .BaseBarraVerticale{
     position: fixed;
@@ -131,17 +126,18 @@ body> p{
     color: white;
     display: flex;
     align-items: center;
-    text-align: center;
 }
 #ImageSecondaparteFinaleheader{
+    background-color: #a3a3a3;
     border-radius: 50%;
     border-style: solid;
     border-color: #a3a3a3;
     width: 30px;
-    height: auto;
+    height: 30px;
     float: left;
     margin-left: 10%;
     margin-top: 10px;
+    
 }
 #JohnDoe{
     margin-left: 10px;
@@ -229,6 +225,20 @@ body> p{
     color: white;
     font-size: 20px;
 }
+.BaseCoverCanzoni2{
+    margin-top: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align: center;
+}
+.BaseCoverCanzoni2> img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 /* Footer */
 #BranoSinister{
     background-color: #adff2f;
@@ -244,6 +254,7 @@ body> p{
 .NavRiproduzione> .ParteSinistraFooter> #BranoSinister img{
     width: 100%;
     object-fit: cover;
+    
 }
 .NavRiproduzione> .ParteSinistraFooter> p> strong{
     color: white;  
@@ -252,17 +263,6 @@ body> p{
     margin-left: 20px;
     padding-top: 20px;
 }
-.BaseCoverCanzoni2{
-    margin-top: 20px;
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-right: 30px;
-    text-align: center;
-}
-.BaseCoverCanzoni2> img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+.NavRiproduzione> .ParteSinistraFooter> p> i{
+    margin-left: 9px;
 }

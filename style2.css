@@ -1,0 +1,27 @@
+/* Impostazioni Base*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MisureSfondo{
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    background-color: green;
+    width: 320px;
+    float: left;
+}
+main{
+    background-color: blue;
+    float: left;
+}
+footer{
+    background-color: black;
+    height: 120px;
+}
+header main{
+    height: calc(100vh - 120px)
+}
