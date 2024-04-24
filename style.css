@@ -95,12 +95,6 @@ body> p{
     height: auto;
     margin-right: 3px; 
 }
-.NavRiproduzione{
-    position: fixed;
-    background-color: #282828;
-    height: 10vh;
-    width: 100%;
-}
 /* Parte Finale header */
 .PrimaparteFinaleHeader{
     margin-top: 340px;
@@ -136,8 +130,7 @@ body> p{
     height: 30px;
     float: left;
     margin-left: 10%;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
 }
 #JohnDoe{
     margin-left: 10px;
@@ -184,7 +177,7 @@ body> p{
     background-color: #adff2f;
     width: 35px;
     height: 3px;
-    margin-left: 34%;
+    margin-left: 31%;
     margin-top: 5px;
 } 
 /*Inizio parte main dei brani */
@@ -202,11 +195,10 @@ body> p{
 .BaseCoverCanzoni{
     margin-top: 20px;
     background-color: white;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-right: 30px;
     text-align: center;
-    
 } 
 .BaseCoverCanzoni> img{
     width: 100%;
@@ -228,8 +220,8 @@ body> p{
 .BaseCoverCanzoni2{
     margin-top: 20px;
     background-color: white;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-right: 30px;
     text-align: center;
@@ -240,6 +232,18 @@ body> p{
     border-radius: 50%;
 }
 /* Footer */
+footer{
+    position: fixed;
+    background-color: #282828;
+    height: 10vh;
+    width: 100%;
+}
+
+.NavRiproduzione{
+    display: flex;
+    width: 100%;
+}
+
 #BranoSinister{
     background-color: #adff2f;
     height: 50px;
@@ -247,22 +251,51 @@ body> p{
     margin-left: 20px;
     margin-top: 20px;
 }
+
 .ParteSinistraFooter{
     display: flex;
     align-items: center;
+    width: 20%;
 }
+
 .NavRiproduzione> .ParteSinistraFooter> #BranoSinister img{
     width: 100%;
     object-fit: cover;
     
 }
+
 .NavRiproduzione> .ParteSinistraFooter> p> strong{
     color: white;  
 }
+
 .NavRiproduzione> .ParteSinistraFooter> p{
     margin-left: 20px;
     padding-top: 20px;
 }
+
 .NavRiproduzione> .ParteSinistraFooter> p> i{
     margin-left: 9px;
+}
+
+.ParteCentraleFooter{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+
+#BarraRiproduzione{
+    background-color: grey;
+    width: 40%;
+    height: 3px;
+}
+
+#TempoSinistra{
+    margin-right: 10px;
+}
+
+#TempoDestra{
+    margin-left: 10px;
 }
